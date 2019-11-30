@@ -18,7 +18,7 @@ public class Liene_hangman {
 		
 		char[] symbols2 = new char[word.length()];
 		for (int i = 0; i < word.length(); i++) {
-			symbols[i] = word.charAt(i);
+			symbols[i] = '*';
 		}
 		
 		for (int i=0;i<symbols.length;i++) {
