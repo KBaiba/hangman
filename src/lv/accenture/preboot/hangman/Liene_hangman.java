@@ -28,10 +28,10 @@ public class Liene_hangman {
 		Scanner sc = new Scanner(System.in);
 		char userGuess = sc.next().charAt(0);
 		
-		for (int i=0;i<symbols.length;i++) {
-if (symbols[i]==userGuess){
-	
-}
+		for (int i = 0; i < symbols.length; i++) {
+			if (symbols[i] == userGuess) {
+
+			}
 		}
 
 	}
