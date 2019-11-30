@@ -6,9 +6,8 @@ public class Hangman1 {
 		
 		
 		
-		
 	}
 }
-// vārdnīca + userinput
-//lasīšana no faila get random from file, apstrāde.
-// zīmēšana
+// vÄ�rdnÄ«ca + userinput
+//lasÄ«Å¡ana no faila get random from file, apstrÄ�de.
+// zÄ«mÄ“Å¡ana
