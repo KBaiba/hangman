@@ -47,7 +47,7 @@ public class Liene_hangman {
 			if (mistake) {
 				countMistakes = countMistakes + 1;
 				// palaist cilvecina funkciju
-				System.out.println("That's not right! You have " + (10 - countMistakes) + " mistakes left!");
+				System.out.println("That's not correct! You have " + (10 - countMistakes) + " mistakes left!");
 			}
 			System.out.println("Guessed:" + countGuessed);
 			System.out.println("Mistakes: " + countMistakes);
