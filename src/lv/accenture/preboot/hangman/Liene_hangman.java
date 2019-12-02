@@ -6,8 +6,14 @@ public class Liene_hangman {
 	/**
 	 * @param args
 	 */
+	
+
+		
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		PrintPicture printer = new PrintPicture();
+		
 		String word = "triceratops";
 		int i = 0;
 		int countGuessed = 0;
@@ -22,7 +28,9 @@ public class Liene_hangman {
 		for (i = 0; i < word.length(); i++) {
 			symbols2[i] = '*';
 		}
-		while ((countGuessed != word.length()) && (countMistakes < 10)) {
+		
+		
+		while ((countGuessed != word.length()) && (countMistakes < 8)) {
 			for (i = 0; i < symbols2.length; i++) {
 				System.out.print(symbols2[i] + " ");
 			}
@@ -43,11 +51,11 @@ public class Liene_hangman {
 					mistake = false;
 				}
 			}
-/
+
 			if (mistake) {
 				countMistakes = countMistakes + 1;
-				// palaist cilvecina funkciju
-				System.out.println("That's not correct! You have " + (10 - countMistakes) + " mistakes left!");
+				printer.printPicture(countMistakes);
+				System.out.println("That's not correct! You have " + (8 - countMistakes) + " mistakes left!");
 			}
 			System.out.println("Guessed:" + countGuessed);
 			System.out.println("Mistakes: " + countMistakes);
