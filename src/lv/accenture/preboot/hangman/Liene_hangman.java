@@ -60,13 +60,16 @@ public class Liene_hangman {
 			System.out.println("Guessed:" + countGuessed);
 			System.out.println("Mistakes: " + countMistakes);
 		}
+		
 		for (i = 0; i < symbols2.length; i++) {
 			System.out.print(symbols2[i] + " ");
 		}
+		
 		System.out.println("");
 		if (countGuessed == word.length()) {
 			System.out.println("Congratulations! You won! :)");
 		}
+		
 	}
 
 }
