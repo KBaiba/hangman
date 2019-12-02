@@ -14,8 +14,10 @@ public class Liene_hangman {
 		
 		PrintPicture printer = new PrintPicture();
 		PrintArray inputArray=new PrintArray();
+		WordChooser reader = new WordChooser();
 		
-		String word = "triceratops";
+		String word = reader.getWord();
+		
 		int i = 0;
 		int countGuessed = 0;
 		int countMistakes = 0;
@@ -35,7 +37,7 @@ public class Liene_hangman {
 			for (i = 0; i < symbols2.length; i++) {
 				System.out.print(symbols2[i] + " ");
 			}
-			//PrintArray(Character[] symbols2);  Liene: nemācēju pagaidām salikt, lai ņem no funkcijas masīva drukāšanu
+			//PrintArray(Character[] symbols2);  salikt, lai ņem no funkcijas masīva drukāšanu
 			System.out.println("");
 			System.out.println("Please enter a letter!");
 

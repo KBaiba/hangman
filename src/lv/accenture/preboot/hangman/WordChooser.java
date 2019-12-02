@@ -19,12 +19,5 @@ public class WordChooser {
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
-	}//
-
-	public static void main(String[] args) {
-
-		WordChooser reader = new WordChooser();
-		String theWord = reader.getWord();
-
 	}
 }
