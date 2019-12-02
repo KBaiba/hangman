@@ -1,0 +1,86 @@
+package lv.accenture.preboot.hangman;
+
+public class HangmanIlona {
+    //skaititajs - tam ir jābūt int mainīgajam, kurš uzskaita, kurš pēc kārtas nepareizais minējums tas ir
+    //šajā versijā spēlētājs pie 8.nepareizā minējuma zaudē - varu pamainīt bildi, lai zaudē ātrāk vai vēlāk
+    
+    private static int skaititajs = 0;
+
+    public static void printPicture() {
+        if (skaititajs == 1) {
+            System.out.println(" __________");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|_");
+        } else if (skaititajs == 2) {
+            System.out.println(" __________");
+            System.out.println("|");
+            System.out.println("|         o");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|_");
+        } else if (skaititajs == 3) {
+            System.out.println(" __________");
+            System.out.println("|");
+            System.out.println("|         o");
+            System.out.println("|         |");
+            System.out.println("|         |");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|_");
+        } else if (skaititajs == 4) {
+            System.out.println(" __________");
+            System.out.println("|");
+            System.out.println("|         o");
+            System.out.println("|        /|");
+            System.out.println("|         |");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|_");
+        } else if (skaititajs == 5) {
+            System.out.println(" __________");
+            System.out.println("|");
+            System.out.println("|         o");
+            System.out.println("|        /|\\ ");
+            System.out.println("|         |");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|_");
+        } else if (skaititajs == 6) {
+            System.out.println(" __________");
+            System.out.println("|");
+            System.out.println("|         o");
+            System.out.println("|        /|\\ ");
+            System.out.println("|         |");
+            System.out.println("|        /");
+            System.out.println("|");
+            System.out.println("|_");
+        } else if (skaititajs == 7) {
+            System.out.println(" __________");
+            System.out.println("|");
+            System.out.println("|         o");
+            System.out.println("|        /|\\ ");
+            System.out.println("|         |");
+            System.out.println("|        / \\");
+            System.out.println("|");
+            System.out.println("|_");
+        } else if (skaititajs == 8) {
+            System.out.println(" __________");
+            System.out.println("|         |");
+            System.out.println("|         o");
+            System.out.println("|        /|\\ ");
+            System.out.println("|         |");
+            System.out.println("|        / \\");
+            System.out.println("|");
+            System.out.println("|_");
+            System.out.println("\n");
+            System.out.println("You lost!");
+        }
+    }
+}
