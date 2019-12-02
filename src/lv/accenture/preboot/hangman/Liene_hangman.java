@@ -43,7 +43,7 @@ public class Liene_hangman {
 					mistake = false;
 				}
 			}
-
+/
 			if (mistake) {
 				countMistakes = countMistakes + 1;
 				// palaist cilvecina funkciju
