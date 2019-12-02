@@ -13,6 +13,7 @@ public class Liene_hangman {
 		// TODO Auto-generated method stub
 		
 		PrintPicture printer = new PrintPicture();
+		PrintArray inputArray=new PrintArray();
 		
 		String word = "triceratops";
 		int i = 0;
@@ -34,6 +35,7 @@ public class Liene_hangman {
 			for (i = 0; i < symbols2.length; i++) {
 				System.out.print(symbols2[i] + " ");
 			}
+			//PrintArray(Character[] symbols2);  Liene: nemācēju pagaidām salikt, lai ņem no funkcijas masīva drukāšanu
 			System.out.println("");
 			System.out.println("Please enter a letter!");
 
