@@ -79,8 +79,6 @@ public class PrintPicture {
             System.out.println("|        / \\");
             System.out.println("|");
             System.out.println("|_");
-            System.out.println("\n");
-            System.out.println("You lost!");
         }
     }
 }
